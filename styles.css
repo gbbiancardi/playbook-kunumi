@@ -108,5 +108,45 @@ h4 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 130vh;
+}
+
+.explore {
+    color: white;
+}
+
+.bg-botoes-explore {
+    background-image: url("img/bg-botoes-explore.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.botoes-explore {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 200;
+}
+
+.detalhes-side-explore {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5rem;
+}
+
+.bottom-explore {
+    width: 100%;
+}
+
+.rodape {
+    background-image: url("img/bg-footer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    display: flex;
 }
