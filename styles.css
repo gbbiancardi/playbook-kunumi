@@ -129,6 +129,17 @@ h4 {
 .botoes-explore {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 200;
+    border-style: outset;
+    border: black;
+    width: 100%;
+}
+
+.botoes-explore-linha1 {
+    margin-top: -2vh;
+}
+
+.botoes-explore-linha2-3 {
+    margin-top: 2vh;
 }
 
 .detalhes-side-explore {
