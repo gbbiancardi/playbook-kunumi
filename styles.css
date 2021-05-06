@@ -158,6 +158,15 @@ h4 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 30vh;
+    height: 40vh;
     display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    text-align: right;
+    margin-bottom: 3vh;
+    font-weight: 300;
+}
+
+.copyright-footer {
+    margin-bottom: -0.1vh;
 }
