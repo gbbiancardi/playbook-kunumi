@@ -6,6 +6,8 @@ html {
     font-family: 'IBM Plex Mono', monospace;
 }
 
+/* HEADER */
+
 .navbar {
     position: fixed;
     z-index: 999;
@@ -29,6 +31,12 @@ html {
     color:black;
     font-size: small;
 }
+
+.nav-item {
+    margin-bottom: -1vh;
+}
+
+/* BANNER INICIO */
 
 .titulo-home {
     font-family: 'IBM Plex Mono', monospace;
@@ -58,6 +66,8 @@ html {
     text-align: center;
 }
 
+/* SESSAO 01 - HISTORIA */
+
 .sessao-01 {
     padding-top: 20vh;
 }
@@ -79,6 +89,8 @@ html {
     margin-top: -2vh;
 }
 
+/* SESSAO 02 - VALORES */
+
 .sessao-02 {
     padding-top: 10vh;
 }
@@ -86,6 +98,8 @@ html {
 h4 {
     font-weight: 600;
 }
+
+/* SESSAO 03 - FUTURO */
 
 .sessao-03 {
     padding-top: 10vh;
@@ -101,6 +115,8 @@ h4 {
     width: 100%;
     padding-bottom: 5vh;
 }
+
+/* SESSAO 04 - EXPLORE */
 
 .sessao-04 {
     padding-top: 10vh;
@@ -129,8 +145,6 @@ h4 {
 .botoes-explore {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 200;
-    border-style: outset;
-    border: black;
     width: 100%;
 }
 
@@ -153,6 +167,8 @@ h4 {
     width: 100%;
 }
 
+/* FOOTER */
+
 .rodape {
     background-image: url("img/bg-footer.png");
     background-size: cover;
@@ -163,8 +179,11 @@ h4 {
     align-items: flex-end;
     justify-content: right;
     text-align: right;
-    margin-bottom: 3vh;
     font-weight: 300;
+}
+
+.textos-footer {
+    margin-bottom: 3vh;
 }
 
 .copyright-footer {
