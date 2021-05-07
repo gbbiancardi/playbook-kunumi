@@ -111,7 +111,7 @@ h4 {
 }
 
 .espacador {
-    padding-top: 5vh;
+    padding: 5vh;
     width: 100%;
     padding-bottom: 5vh;
 }
@@ -135,7 +135,7 @@ h4 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 40vh;
+    height: 38vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,6 +146,19 @@ h4 {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 200;
     width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.botoes-explore:hover {
+    height: 100%;
+    width: 100%;
+    background-color: #1C1C1C;
+    color: white;
+    border: none;
 }
 
 .botoes-explore-linha1 {
@@ -163,8 +176,15 @@ h4 {
     margin-left: 5rem;
 }
 
+.parent {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+
 .bottom-explore {
     width: 100%;
+    grid-column: 1 / 4;
+    margin-top: 4vh;
 }
 
 /* FOOTER */
