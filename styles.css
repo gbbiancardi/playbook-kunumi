@@ -99,6 +99,16 @@ h4 {
     font-weight: 600;
 }
 
+.gif-present-future {
+    width: 70%;
+}
+
+.gif-reframe {
+    width: 100%;
+    padding-top: 9vh;
+
+}
+
 /* SESSAO 03 - FUTURO */
 
 .sessao-03 {
